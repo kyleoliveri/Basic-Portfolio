@@ -41,22 +41,31 @@
     top: 0;
     right: 0;
     position: absolute;
-    padding-top: 30px; 
+    padding-top: 30px;
 }
 /* Button 1 */
 .contact {
     float: right;
-    margin-right: 75px;
+    margin-right: 475px;
+    border: none;
+    color: #aca8a8;
+    font-size: 18px;
 }
 /* Button 2 */
 .portfolio {
     float: right;
     margin-left: 50px;
     margin-right: 50px;
+    border: none;
+    color: #aca8a8;
+    font-size: 18px;
 }
 /* Button 3 */
 .aboutme {
     float: right;
+    border: none;
+    color: #aca8a8;
+    font-size: 18px;
 }
 #aboutme {
     color: #4aaaa5;
@@ -101,4 +110,7 @@ p {
     height: 3px;
     background: #dddddd;
     margin-left: 500px;
+}
+button:hover {
+    color: #4aaaa5;
 }
