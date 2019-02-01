@@ -1,3 +1,4 @@
+
 .maincontainer {
     width: 960px;
     height: 498px;
@@ -9,6 +10,19 @@
     border: 3px solid #dddddd;
     background: #ffffff;
     z-index: -1;
+}
+.maincontainerportfolio {
+    width: 960px;
+    height: 500px;
+    left: 473px;
+    right: 1433px;
+    top: 186px;
+    bottom: 684px;
+    position: absolute;
+    border: 3px solid #dddddd;
+    background: #ffffff;
+    z-index: -1;
+    margin-bottom: 100px;
 }
 .headercontainer {
     background: #fff;
@@ -50,6 +64,11 @@
     border: none;
     color: #aca8a8;
     font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact:hover {
+    color: #4aaaa5;
 }
 /* Button 2 */
 .portfolio {
@@ -59,6 +78,8 @@
     border: none;
     color: #aca8a8;
     font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* Button 3 */
 .aboutme {
@@ -66,6 +87,11 @@
     border: none;
     color: #aca8a8;
     font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutme:hover {
+    color: #4aaaa5;
 }
 #aboutme {
     color: #4aaaa5;
@@ -93,6 +119,7 @@ p {
     background: #666666;
     border-top: solid 10px #4aaaa5;
     position: absolute;
+    clear: both;
     left: 0;
     right: 0;
     bottom: 0;
@@ -122,6 +149,14 @@ button:hover {
     border-color: #dddddd;
     color: #777777;
 }
+#name {
+    width: 900px;
+    height: 18px;
+}
+#email {
+    width: 900px;
+    height: 18px;
+}
 #commentbox {
     width: 900px;
     height: 165px;
@@ -135,4 +170,38 @@ button:hover {
     width: 100px;
     font-size: 14px;
     margin-top: 5px;
+}
+/* #portfolioimg {
+    width: 175px;
+    height: 100px;
+} */
+.p1 {
+    margin-left: 590px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+}
+.p2 {
+    width: 200px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.p3 {
+    width: 200px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.p4 {
+    width: 200px;
+    height: 150px;
+    margin-left: 720px;
+    margin-top: 45px;
+}
+.p5 {
+    width: 200px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 45px;
 }
